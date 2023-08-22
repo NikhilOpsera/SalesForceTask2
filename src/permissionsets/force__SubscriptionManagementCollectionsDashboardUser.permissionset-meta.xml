@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Give users visibility into collection status in a given timeframe. Managers and agents see metrics for their direct and indirect reports.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Subscription Management: Collections Dashboard User</label>
+    <license>RevCloudAnalyticsViewOnlyEmbeddedAppPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewOnlyEmbeddedAppUser</name>
+    </userPermissions>
+</PermissionSet>
